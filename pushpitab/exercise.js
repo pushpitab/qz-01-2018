@@ -21,6 +21,7 @@ quiz.question_00 = function() {
   //   Return true or false.
   // ----------------------------------------
   var counter = 0;
+  console.log("test");
   return 'Error: Question 01 not implemented';
 };
 
@@ -72,7 +73,7 @@ quiz.question_05 = function(someObject) {
 //   SECTION 02 - OBJECTS
 // ----------------------------------------
 
-quiz.question_06 = function(data, carName, model, doors) {
+quiz.question_06 = function(data, carName, model, doors, color) {
   // ---------------------------------------------------------------
   // Find the price of the car whose name, model, and doors are provided
   // as arguments to this function.
